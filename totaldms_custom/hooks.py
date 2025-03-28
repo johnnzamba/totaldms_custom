@@ -23,7 +23,16 @@ app_license = "mit"
 
 # Includes in <head>
 # ------------------
-
+fixtures = [
+    {
+        "dt": "Client Script",
+        "filters": [["name", "in","Contractor evaluation form"]]
+    },
+    {
+        "dt": "Workflow",
+    	 "filters": [["name", "=", "Contractor Job Evaluation Form"]]
+    }
+]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/totaldms_custom/css/totaldms_custom.css"
 # app_include_js = "/assets/totaldms_custom/js/totaldms_custom.js"

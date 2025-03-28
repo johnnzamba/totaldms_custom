@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-28 10:18:52.628160",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "comments",
+  "rating",
+  "points"
+ ],
+ "fields": [
+  {
+   "fieldname": "comments",
+   "fieldtype": "Select",
+   "label": "Comments",
+   "options": "Completed a head of time.\nCompleted right on schedule.\nDelayed but with valid reasons.\nDelayed with fairy valid reasons.\nDelayed with no valid  reasons.",
+   "width": "2"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Select",
+   "label": "Rating.",
+   "options": "1\n2\n3\n4\n5",
+   "width": "2"
+  },
+  {
+   "fieldname": "points",
+   "fieldtype": "Select",
+   "label": "Points.",
+   "options": "20\n15\n10\n5\n0",
+   "width": "2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-03-28 10:21:41.597972",
+ "modified_by": "Administrator",
+ "module": "Total DMS Customizations",
+ "name": "table timeliness",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

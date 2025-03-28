@@ -1,0 +1,485 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CJEF- .YYYY. - .####",
+ "creation": "2025-03-28 10:20:34.861383",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "contractor_details_tab",
+  "contractor_job_evaluation_section",
+  "name_of_contractor",
+  "agreed_duration_of_works",
+  "agreed_duration_of_worksend",
+  "column_break_wxbn",
+  "project_sitename",
+  "tender_lpo_reference",
+  "totals_based_on_criteria_section",
+  "total_points",
+  "timeliness_tab",
+  "timeliness_section",
+  "guidelines_timeliness",
+  "rating_timeliness",
+  "point_timeliness",
+  "column_break_tywh",
+  "points_awarded",
+  "_weight",
+  "weighted_points",
+  "comments",
+  "quality_tab",
+  "quality_of_workmanship_and_materials_used_section",
+  "guidelines_quality",
+  "rating_quality",
+  "point_quality",
+  "column_break_rsov",
+  "points_quality",
+  "weight_quality",
+  "weightpoints_quality",
+  "comment_quality",
+  "variations_tab",
+  "variations_of_the_original_scope_of_boq_section",
+  "guideline_variations",
+  "rating_variations",
+  "point_variations",
+  "column_break_paed",
+  "points_variations",
+  "weight_variations",
+  "weightpoints_variations",
+  "comments_varaition",
+  "point_safety",
+  "safety_compliance_section",
+  "guidelines_safety",
+  "rating_safety",
+  "point_safe",
+  "column_break_osvd",
+  "points_safety",
+  "weight_safety",
+  "weightpoints_safety",
+  "comments_safety",
+  "reporting_tab",
+  "nearmiss_reporting_section",
+  "guideline_reporting",
+  "rating_reporting",
+  "point_reporting",
+  "column_break_xmlz",
+  "points_reporting",
+  "weight_reporting",
+  "weightpoints_reporting",
+  "comment_repoting",
+  "compliance_tab",
+  "compliance_to_internal_and_external_procedures_section",
+  "guideline_compliance",
+  "rating_compliance",
+  "point_compliance",
+  "column_break_lrge",
+  "points_compliance",
+  "weight__compliance",
+  "weightpoints__compliance",
+  "comment_compliance"
+ ],
+ "fields": [
+  {
+   "fieldname": "contractor_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Contractor Details"
+  },
+  {
+   "fieldname": "contractor_job_evaluation_section",
+   "fieldtype": "Section Break",
+   "label": "Contractor Job Evaluation."
+  },
+  {
+   "fieldname": "name_of_contractor",
+   "fieldtype": "Link",
+   "label": "Name of Contractor.",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "agreed_duration_of_works",
+   "fieldtype": "Date",
+   "label": "Agreed Duration Of Works.(start)"
+  },
+  {
+   "fieldname": "agreed_duration_of_worksend",
+   "fieldtype": "Date",
+   "label": "Agreed Duration Of Works.(End)"
+  },
+  {
+   "fieldname": "column_break_wxbn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project_sitename",
+   "fieldtype": "Data",
+   "label": "Project Site/Name.",
+   "options": "Purchase Order"
+  },
+  {
+   "fieldname": "tender_lpo_reference",
+   "fieldtype": "Link",
+   "label": "Tender/ LPO Reference.",
+   "options": "Purchase Order"
+  },
+  {
+   "fieldname": "totals_based_on_criteria_section",
+   "fieldtype": "Section Break",
+   "label": "Totals Based on Criteria"
+  },
+  {
+   "bold": 1,
+   "description": "Value will be AUTO-COMPUTED based on outcomes from individual Criteria.",
+   "fieldname": "total_points",
+   "fieldtype": "Float",
+   "label": "Total Points",
+   "precision": "3",
+   "read_only": 1
+  },
+  {
+   "fieldname": "timeliness_tab",
+   "fieldtype": "Tab Break",
+   "label": "Timeliness."
+  },
+  {
+   "fieldname": "timeliness_section",
+   "fieldtype": "Section Break",
+   "label": "Timeliness."
+  },
+  {
+   "fieldname": "guidelines_timeliness",
+   "fieldtype": "Select",
+   "label": "Guidelines",
+   "options": "\nCompleted on schedule.\nCompleted right on schedule.\nDelayed but with valid reasons.\nDelayed with fairy valid reasons.\nDelayed with no valid  reasons."
+  },
+  {
+   "fieldname": "rating_timeliness",
+   "fieldtype": "Select",
+   "label": "Rating",
+   "options": "\n1\n2\n3\n4\n5"
+  },
+  {
+   "fieldname": "point_timeliness",
+   "fieldtype": "Select",
+   "label": "Points",
+   "options": "\n20\n15\n10\n5\n0"
+  },
+  {
+   "fieldname": "column_break_tywh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "points_awarded",
+   "fieldtype": "Int",
+   "label": "Points Awarded"
+  },
+  {
+   "default": "30",
+   "fieldname": "_weight",
+   "fieldtype": "Percent",
+   "label": "% Weight",
+   "precision": "1"
+  },
+  {
+   "fieldname": "weighted_points",
+   "fieldtype": "Float",
+   "label": "Weighted Points",
+   "precision": "3",
+   "read_only": 1
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "quality_tab",
+   "fieldtype": "Tab Break",
+   "label": "Quality "
+  },
+  {
+   "fieldname": "quality_of_workmanship_and_materials_used_section",
+   "fieldtype": "Section Break",
+   "label": "Quality of Workmanship and Materials used."
+  },
+  {
+   "fieldname": "guidelines_quality",
+   "fieldtype": "Select",
+   "label": "Guidelines",
+   "options": "\nQuality of workmanship and materials used exceeds  expectations.\nQuality of workmanship and materials used meets expectations.\nQuality of workmanship and materials used was fairly acceptable.\nQuality of workmanship and materials used below expectations.\nQuality of workmanship and materials used unacceptable."
+  },
+  {
+   "fieldname": "rating_quality",
+   "fieldtype": "Select",
+   "label": "Rating",
+   "options": "\n1\n2\n3\n4\n5"
+  },
+  {
+   "fieldname": "point_quality",
+   "fieldtype": "Select",
+   "label": "Points",
+   "options": "\n20\n15\n10\n5\n0"
+  },
+  {
+   "fieldname": "column_break_rsov",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "points_quality",
+   "fieldtype": "Int",
+   "label": "Points Awarded"
+  },
+  {
+   "default": "25",
+   "fieldname": "weight_quality",
+   "fieldtype": "Percent",
+   "label": "% weight"
+  },
+  {
+   "fieldname": "weightpoints_quality",
+   "fieldtype": "Float",
+   "label": "Weighted points"
+  },
+  {
+   "fieldname": "comment_quality",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "variations_tab",
+   "fieldtype": "Tab Break",
+   "label": "Variations"
+  },
+  {
+   "fieldname": "variations_of_the_original_scope_of_boq_section",
+   "fieldtype": "Section Break",
+   "label": "Variations Of The Original Scope of BOQ"
+  },
+  {
+   "fieldname": "guideline_variations",
+   "fieldtype": "Select",
+   "label": "Guidelines",
+   "options": "\nJob completed without any variation.\nJob completed with a single  variation.(less 5% of scope)\nJob completed with more than one variation.(less 5-25%)\nJob completed with major variation.(less 25-50%)\nJob completed with several major variation.(over 50%)"
+  },
+  {
+   "fieldname": "rating_variations",
+   "fieldtype": "Select",
+   "label": "Rating",
+   "options": "\n1\n2\n3\n4\n5"
+  },
+  {
+   "fieldname": "point_variations",
+   "fieldtype": "Select",
+   "label": "Points",
+   "options": "\n20\n15\n10\n5\n0"
+  },
+  {
+   "fieldname": "column_break_paed",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "points_variations",
+   "fieldtype": "Int",
+   "label": "Points Awarded"
+  },
+  {
+   "default": "10",
+   "fieldname": "weight_variations",
+   "fieldtype": "Percent",
+   "label": "% weight"
+  },
+  {
+   "fieldname": "weightpoints_variations",
+   "fieldtype": "Float",
+   "label": "Weighted points"
+  },
+  {
+   "fieldname": "comments_varaition",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "point_safety",
+   "fieldtype": "Tab Break",
+   "label": "Safety"
+  },
+  {
+   "fieldname": "safety_compliance_section",
+   "fieldtype": "Section Break",
+   "label": "Safety Compliance"
+  },
+  {
+   "fieldname": "guidelines_safety",
+   "fieldtype": "Select",
+   "label": "Guidelines",
+   "options": "\nJob completed with no incident.\nNear miss experienced during works.\nMinor incident experienced during works.(first aid cases)\nMajor incident experienced during works.( leading to LTI)\nIncident with catastrophic impact.(Death and property damage)"
+  },
+  {
+   "fieldname": "rating_safety",
+   "fieldtype": "Select",
+   "label": "Rating",
+   "options": "\n1\n2\n3\n4\n5"
+  },
+  {
+   "fieldname": "point_safe",
+   "fieldtype": "Select",
+   "label": "Points",
+   "options": "\n20\n15\n10\n5\n0"
+  },
+  {
+   "fieldname": "column_break_osvd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "points_safety",
+   "fieldtype": "Int",
+   "label": "Points Awarded"
+  },
+  {
+   "default": "20",
+   "fieldname": "weight_safety",
+   "fieldtype": "Percent",
+   "label": "% Weight"
+  },
+  {
+   "fieldname": "weightpoints_safety",
+   "fieldtype": "Float",
+   "label": "Weighted points"
+  },
+  {
+   "fieldname": "comments_safety",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "reporting_tab",
+   "fieldtype": "Tab Break",
+   "label": "Reporting"
+  },
+  {
+   "fieldname": "nearmiss_reporting_section",
+   "fieldtype": "Section Break",
+   "label": "Nearmiss Reporting"
+  },
+  {
+   "fieldname": "guideline_reporting",
+   "fieldtype": "Select",
+   "label": "Guidelines",
+   "options": "\nAbove 100% reporting.\n50-100% reporting.\n10-50% reporting.\nLess than 10% reporting.\nNo nearmiss reported during works."
+  },
+  {
+   "fieldname": "rating_reporting",
+   "fieldtype": "Select",
+   "label": "Rating",
+   "options": "\n1\n2\n3\n4\n5"
+  },
+  {
+   "fieldname": "point_reporting",
+   "fieldtype": "Select",
+   "label": "Points",
+   "options": "\n20\n15\n10\n5\n0"
+  },
+  {
+   "fieldname": "column_break_xmlz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "points_reporting",
+   "fieldtype": "Int",
+   "label": "Points Awarded"
+  },
+  {
+   "default": "10",
+   "fieldname": "weight_reporting",
+   "fieldtype": "Percent",
+   "label": "% Weight"
+  },
+  {
+   "fieldname": "weightpoints_reporting",
+   "fieldtype": "Float",
+   "label": "Weighted points"
+  },
+  {
+   "fieldname": "comment_repoting",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "compliance_tab",
+   "fieldtype": "Tab Break",
+   "label": "Compliance"
+  },
+  {
+   "fieldname": "compliance_to_internal_and_external_procedures_section",
+   "fieldtype": "Section Break",
+   "label": "Compliance to internal and external procedures"
+  },
+  {
+   "fieldname": "guideline_compliance",
+   "fieldtype": "Select",
+   "label": "Guideline",
+   "options": "\nNo single case of non compliance.\nSingle very minor case of non compliance.\nSingle minor case of non compliance.(stop card issued)\nSeveral non compliance reported.(Temporary suspension of works)\nMajor non compliance reported.( Total shutdown of worksite)"
+  },
+  {
+   "fieldname": "rating_compliance",
+   "fieldtype": "Select",
+   "label": "Rating",
+   "options": "\n1\n2\n3\n4\n5"
+  },
+  {
+   "fieldname": "point_compliance",
+   "fieldtype": "Select",
+   "label": "Points",
+   "options": "\n20\n15\n10\n5\n0"
+  },
+  {
+   "fieldname": "column_break_lrge",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "points_compliance",
+   "fieldtype": "Int",
+   "label": "Points Awarded"
+  },
+  {
+   "default": "5",
+   "fieldname": "weight__compliance",
+   "fieldtype": "Percent",
+   "label": "% Weight"
+  },
+  {
+   "fieldname": "weightpoints__compliance",
+   "fieldtype": "Float",
+   "label": "Weighted Points"
+  },
+  {
+   "fieldname": "comment_compliance",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-28 10:21:41.821651",
+ "modified_by": "Administrator",
+ "module": "Total DMS Customizations",
+ "name": "contractor job evaluation form",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

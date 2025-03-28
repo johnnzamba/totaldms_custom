@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-28 10:03:26.009723",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "comments",
+  "rating",
+  "points"
+ ],
+ "fields": [
+  {
+   "fieldname": "comments",
+   "fieldtype": "Select",
+   "label": "Comments",
+   "options": "Complete without any variation.\nComplete with a single  variation.(less 5% of scope)\nComplete with more than one variation.(less 5-25%)\nComplete with major variation.(less 25-50%)\nComplete with several major variation.(over 50%)"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Select",
+   "label": "Rating",
+   "options": "1\n2\n3\n4\n5"
+  },
+  {
+   "fieldname": "points",
+   "fieldtype": "Select",
+   "label": "Points",
+   "options": "20\n15\n10\n5\n0"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-03-28 10:21:40.721454",
+ "modified_by": "Administrator",
+ "module": "Total DMS Customizations",
+ "name": "Table Variations",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

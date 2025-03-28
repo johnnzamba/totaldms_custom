@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-28 10:18:10.738821",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "comments",
+  "rating",
+  "points"
+ ],
+ "fields": [
+  {
+   "fieldname": "comments",
+   "fieldtype": "Select",
+   "label": "Comments",
+   "options": "No single case of non compliance.\nSingle very minor case of non compliance.\nSingle minor case of non compliance.(stop card issued)\nSeveral non compliance reported.(Temporary suspension of works)\nMajor non compliance reported.( Total shutdown of worksite)"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Select",
+   "label": "Rating",
+   "options": "1\n2\n3\n4\n5"
+  },
+  {
+   "fieldname": "points",
+   "fieldtype": "Select",
+   "label": "Points",
+   "options": "20\n15\n10\n5\n0"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-03-28 10:21:41.278148",
+ "modified_by": "Administrator",
+ "module": "Total DMS Customizations",
+ "name": "table compliance",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
