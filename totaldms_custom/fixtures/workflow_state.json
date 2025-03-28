@@ -1,0 +1,281 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 13:45:23.492755",
+  "name": "Reveiw by Acc Payable",
+  "style": "",
+  "workflow_state_name": "Reveiw by Acc Payable"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 14:00:27.737886",
+  "name": "Approved by Pm",
+  "style": "",
+  "workflow_state_name": "Approved by Pm"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 14:02:08.251043",
+  "name": "Rejected by PM",
+  "style": "",
+  "workflow_state_name": "Rejected by PM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 14:04:49.422508",
+  "name": "Pending Approval by Pm",
+  "style": "",
+  "workflow_state_name": "Pending Approval by Pm"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-05 11:22:20.923242",
+  "name": "Reject by Supervising Engineer",
+  "style": "",
+  "workflow_state_name": "Reject by Supervising Engineer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-05 17:18:39.659289",
+  "name": "pending validation by head of section",
+  "style": "",
+  "workflow_state_name": "pending validation by head of section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-10 12:53:51.536032",
+  "name": "Pending Review by Supervising Engineer",
+  "style": "",
+  "workflow_state_name": "Pending Review by Supervising Engineer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-10 12:55:00.913064",
+  "name": "Pending review by Contractor Director",
+  "style": "",
+  "workflow_state_name": "Pending review by Contractor Director"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-10 13:22:50.913075",
+  "name": "Received at purchasing section",
+  "style": "",
+  "workflow_state_name": "Received at purchasing section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-10 13:30:46.334639",
+  "name": "Pending Receipt at Purchase Section",
+  "style": "",
+  "workflow_state_name": "Pending Receipt at Purchase Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-05 11:19:54.037891",
+  "name": "Reject by Plant Manager",
+  "style": "",
+  "workflow_state_name": "Reject by Plant Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-05 11:21:18.083301",
+  "name": "Reject by C.D",
+  "style": "",
+  "workflow_state_name": "Reject by C.D"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-05 11:22:57.931654",
+  "name": "Reject by S.E",
+  "style": "",
+  "workflow_state_name": "Reject by S.E"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 13:59:17.604086",
+  "name": "Reject by Acc payable",
+  "style": "",
+  "workflow_state_name": "Reject by Acc payable"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 14:07:40.198997",
+  "name": "Reject by PM",
+  "style": "",
+  "workflow_state_name": "Reject by PM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 14:03:30.491047",
+  "name": "Payment Processing",
+  "style": "",
+  "workflow_state_name": "Payment Processing"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 14:07:21.381393",
+  "name": "Approval by Pm",
+  "style": "",
+  "workflow_state_name": "Approval by Pm"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-05 11:24:32.748777",
+  "name": "Received @ purchasing section",
+  "style": "",
+  "workflow_state_name": "Received @ purchasing section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 13:57:53.444534",
+  "name": "Approval by Acc payable",
+  "style": "",
+  "workflow_state_name": "Approval by Acc payable"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 07:13:18.810770",
+  "name": "Rejected",
+  "style": "",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-05 11:09:18.300008",
+  "name": "Pending review by S.E",
+  "style": "",
+  "workflow_state_name": "Pending review by S.E"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-05 11:11:16.120362",
+  "name": "Pending review by Plant Manager",
+  "style": "",
+  "workflow_state_name": "Pending review by Plant Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-05 11:14:16.340773",
+  "name": "Pending review by C.D",
+  "style": "",
+  "workflow_state_name": "Pending review by C.D"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-05 11:16:05.171219",
+  "name": "Validation by head of section",
+  "style": "",
+  "workflow_state_name": "Validation by head of section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 13:53:56.943739",
+  "name": "Pending review by PM",
+  "style": "",
+  "workflow_state_name": "Pending review by PM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 13:49:44.961501",
+  "name": "Pending Review by Acc payable",
+  "style": "",
+  "workflow_state_name": "Pending Review by Acc payable"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 07:11:54.213925",
+  "name": "Approved",
+  "style": "",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 07:13:50.351919",
+  "name": "Rework",
+  "style": "",
+  "workflow_state_name": "Rework"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 07:06:24.926316",
+  "name": "Under review",
+  "style": "",
+  "workflow_state_name": "Under review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-21 02:05:04.463671",
+  "name": "Submitted",
+  "style": "",
+  "workflow_state_name": "Submitted"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-20 09:19:46.032053",
+  "name": "Draft",
+  "style": "",
+  "workflow_state_name": "Draft"
+ }
+]

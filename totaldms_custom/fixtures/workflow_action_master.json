@@ -1,0 +1,121 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-02-21 02:18:34.504335",
+  "name": "Invoice creator completes all mandatory fields and clicks “Submit”",
+  "workflow_action_name": "Invoice creator completes all mandatory fields and clicks “Submit”"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-02-21 02:20:00.832314",
+  "name": "System validates the invoice and routes it for review",
+  "workflow_action_name": "System validates the invoice and routes it for review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-02-21 02:54:03.367641",
+  "name": "Supplier revises the invoice based on provided feedback",
+  "workflow_action_name": "Supplier revises the invoice based on provided feedback"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-02-21 02:54:54.144645",
+  "name": "Supplier re-submits the revised invoice",
+  "workflow_action_name": "Supplier re-submits the revised invoice"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-02-21 07:19:52.521670",
+  "name": "Notify Supplier of Cancelation",
+  "workflow_action_name": "Notify Supplier of Cancelation"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-02-21 09:58:39.568184",
+  "name": "Submit For Approval",
+  "workflow_action_name": "Submit For Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-03-10 12:56:54.272944",
+  "name": "Submit to Supervising Engineer",
+  "workflow_action_name": "Submit to Supervising Engineer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-02-21 12:25:06.266184",
+  "name": "Submit For Review",
+  "workflow_action_name": "Submit For Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-02-21 13:53:19.366398",
+  "name": "Submit to Procurement Manager",
+  "workflow_action_name": "Submit to Procurement Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-03-05 11:26:37.005066",
+  "name": "Submit to S.E",
+  "workflow_action_name": "Submit to S.E"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-03-05 11:30:18.552288",
+  "name": "Submit for Review by plant manager",
+  "workflow_action_name": "Submit for Review by plant manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-03-05 11:33:05.362990",
+  "name": "Received by Purchasing",
+  "workflow_action_name": "Received by Purchasing"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-02-13 04:17:42.896165",
+  "name": "Review",
+  "workflow_action_name": "Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-02-21 13:48:06.861805",
+  "name": "Submit for Review by Acc payable",
+  "workflow_action_name": "Submit for Review by Acc payable"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-02-20 09:28:15.979594",
+  "name": "Submit",
+  "workflow_action_name": "Submit"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-02-13 04:17:42.895135",
+  "name": "Reject",
+  "workflow_action_name": "Reject"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-02-13 04:17:42.893521",
+  "name": "Approve",
+  "workflow_action_name": "Approve"
+ }
+]

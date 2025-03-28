@@ -31,6 +31,12 @@ fixtures = [
     {
         "dt": "Workflow",
     	 "filters": [["name", "=", "Contractor Job Evaluation Form"]]
+    },
+    {
+        "dt": "Workflow State"
+    },
+    {
+        "dt": "Workflow Action Master"
     }
 ]
 # include js, css files in header of desk.html
